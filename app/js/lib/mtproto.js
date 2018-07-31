@@ -19,7 +19,9 @@ angular.module('izhukov.mtproto', ['izhukov.utils'])
                 //{id: 3, host: '149.154.175.117', port: 80}
             ]
             : [
-                { id: 1, host: 'localhost', port: 54208 },
+                //{ id: 1, host: 'localhost', port: 54208 },
+                { id: 1, host: '88.198.61.220', port: 80 },
+
 
                 //{id: 1, host: '149.154.175.50',  port: 80},
                 //{id: 2, host: '149.154.167.51',  port: 80},
@@ -38,8 +40,8 @@ angular.module('izhukov.mtproto', ['izhukov.utils'])
                 if (Config.Modes.ssl || !Config.Modes.http) {
                     var subdomain = sslSubdomains[dcID - 1] + (upload ? '-1' : '')
                     var path = Config.Modes.test ? 'apiw_test1' : 'apiw1'
-                    //chosenServer = 'https://' + subdomain + '.web.telegram.org/' + path
-                    chosenServer = 'http://localhost:54208/' + path
+                    //chosenServer = 'https://' + subdomain + '.chatzy.ir/' + path
+                    chosenServer = 'http://venus.chatzy.ir/apiw1'
                     return chosenServer
                 }
 

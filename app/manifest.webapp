@@ -1,6 +1,6 @@
 {
-  "name": "Telegram",
-  "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
+  "name": "Chatzy",
+  "description": "Chatzy Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
   "version": "0.7.0",
   "type": "privileged",
   "launch_path": "/index.html",
@@ -11,13 +11,17 @@
   "installs_allowed_from": [
     "*"
   ],
-  "messages": [{
-    "push": "/index.html"
-  }, {
-    "push-register": "/index.html"
-  }, {
-    "notification": "/index.html"
-  }],
+  "messages": [
+    {
+      "push": "/index.html"
+    },
+    {
+      "push-register": "/index.html"
+    },
+    {
+      "notification": "/index.html"
+    }
+  ],
   "permissions": {
     "desktop-notification": {
       "description": "Required to show new message notifications"
@@ -34,19 +38,19 @@
       "access": "createonly"
     },
     "device-storage:pictures": {
-    "description": "Required for photos download",
+      "description": "Required for photos download",
       "access": "createonly"
     },
     "device-storage:sdcard": {
-    "description": "Required for documents download",
+      "description": "Required for documents download",
       "access": "createonly"
     },
     "device-storage:videos": {
-    "description": "Required for videos download",
+      "description": "Required for videos download",
       "access": "createonly"
     },
-    "audio-capture" : {
-    "description" : "Required to record voice messages"
+    "audio-capture": {
+      "description": "Required to record voice messages"
     }
   },
   "activities": {
@@ -54,7 +58,7 @@
       "href": "/index.html",
       "disposition": "window",
       "filters": {
-        "type": ["image/*","audio/*","video/*", "url"],
+        "type": [ "image/*", "audio/*", "video/*", "url" ],
         "url": {
           "pattern": "https?:.{1,16384}",
           "regexp": "^https?:"

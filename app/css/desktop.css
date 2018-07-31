@@ -4,10 +4,10 @@
    Prepending 'only screen and ' to each media query breaks nested media queries */
 /* app desktop css */
 .tg_head_split {
-    max-width: 1010px;
-    margin: 0 auto;
-    height: 48px;
-    background: #b56969;
+  max-width: 1010px;
+  margin: 0 auto;
+  height: 48px;
+  background: #5682a3;
 }
 .tg_head_logo_wrap {
   float: left;
@@ -22,16 +22,16 @@
   display: block;
   font-weight: bold;
   padding: 16px 19px;
-  color: #debbbb;
+  color: #b9cfe3;
   font-size: 13px;
   line-height: 16px;
 }
-    .dropdown.open .tg_head_btn,
-    .tg_head_btn:hover {
-        color: #fff;
-        text-decoration: none;
-        background: #9a5a5a;
-    }
+.dropdown.open .tg_head_btn,
+.tg_head_btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #497799;
+}
 .dropdown.open .tg_head_btn {
   position: relative;
   z-index: 5;

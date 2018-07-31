@@ -305,9 +305,9 @@ input[type="number"]::-webkit-inner-spin-button {
   -webkit-transform-origin: center center;
 }
 .md_modal_head {
-    color: #fff;
-    background: #22264b;
-    padding: 0 0 28px 26px;
+  color: #fff;
+  background: #5580a3;
+  padding: 0 0 28px 26px;
 }
 .md_modal_head_simple {
   padding-bottom: 13px;
