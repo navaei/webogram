@@ -684,5 +684,5 @@ function bytesModPow (x, y, m) {
     console.error('mod pow error', e)
   }
 
-  return bytesFromBigInt(new BigInteger(x).modPow(new BigInteger(y), new BigInteger(m)), 256)
+    return bytesFromBigInt(new BigInteger(x).modPow(new BigInteger(y), new BigInteger(m)), 256)
 }
